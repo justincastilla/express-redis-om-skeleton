@@ -1,0 +1,24 @@
+{
+  "name": "express-redis-om-skeleton",
+  "version": "1.0.0",
+  "description": "A simple repo to clone and get up an running quickly with Redis, Redis OM, Express, and Express Session.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Guy Royse <guy@guyroyse.com> (http://guyroyse.com/)",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "connect-redis-stack": "^0.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "redis": "^4.6.5",
+    "redis-om": "^0.4.0-beta.2"
+  }
+}
